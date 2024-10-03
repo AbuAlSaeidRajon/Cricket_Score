@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Scoring App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cricket Scoreboard</h1>
+        <div class="scoreboard">
+            <h2>Team A</h2>
+            <p id="score">Score: 0/0</p>
+            <p id="overs">Overs: 0.0</p>
+        </div>
+        <div class="controls">
+            <button onclick="addRun(1)">1 Run</button>
+            <button onclick="addRun(2)">2 Runs</button>
+            <button onclick="addRun(3)">3 Runs</button>
+            <button onclick="addRun(4)">4 Runs</button>
+            <button onclick="addRun(6)">6 Runs</button>
+            <button onclick="addWicket()">Wicket</button>
+            <button onclick="addBall()">Ball</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
